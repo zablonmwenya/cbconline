@@ -29,19 +29,33 @@ Update country/region settings
 
 Project Structure
 cbconline/
+
 │── about.php
+
 │── index.php
+
 │── login.php
+
 │── registration.php
+
 │── cart.php
+
 │── checkout.php
+
 │── customer-*.php
+
 │── product-*.php
+
 │── ...
+
 │── admin/
+
 │   ├── country-add.php
+
 │   ├── country-delete.php
+
 │   └── ...
+
 └── assets/ (CSS, JS, Images - if available)
 
 Requirements
@@ -58,7 +72,7 @@ Installation
 
 Clone the repository:
 
-git clone https://github.com/your-username/cbconline.git
+git clone https://github.com/Zablonmwenya/cbconline.git
 
 
 Move the project into your server directory (e.g., htdocs for XAMPP):
@@ -68,13 +82,13 @@ mv cbconline /path-to-xampp/htdocs/
 
 Import the database:
 
-Look for a .sql file in the project (usually inside database/ or sql/).
+Look for a .sql file in the project .
 
 Import it into MySQL using phpMyAdmin or command line.
 
 Update database configuration:
 
-Open the config file (e.g., config.php or similar).
+Open the config file .
 
 Set your database host, username, password, and database name.
 
